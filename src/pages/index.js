@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import About from '../components/about'
+import Skills from '../components/skills'
+import Projects from '../components/projects'
+import Contact from '../components/contact'
 import styles from '../styles/Home.module.css'
 
 
@@ -13,10 +16,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-
-
       <main className={styles.main}>
         <About />
+        <Skills />
+        <Projects />
+        <Contact />
       </main>
     </div>
   )

@@ -1,5 +1,5 @@
 .intro {
-  padding: 4rem 7rem 3rem 7rem;
+  padding: 5rem 7rem 5rem 7rem;
 }
 .hello {
   color: var(--highlight);
@@ -12,7 +12,7 @@
 }
 .fenil {
   color: var(--light);
-  font-size: 5rem;
+  font-size: 4.5rem;
   margin: 1rem 0;
 }
 .fenil::selection {
@@ -22,7 +22,7 @@
 .des {
   margin: 0;
   color: var(--secondary);
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .des::selection {
   background: var(--primary);
