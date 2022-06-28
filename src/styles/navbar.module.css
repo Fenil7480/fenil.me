@@ -1,0 +1,11 @@
+.navbar {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+.ul {
+  width: 100%;
+}
+.li {
+  margin-left: 3rem;
+  font-size: 1.1rem;
+}

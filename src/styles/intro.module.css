@@ -1,0 +1,53 @@
+.intro {
+  padding: 4rem 7rem 3rem 7rem;
+}
+.hello {
+  color: var(--highlight);
+  font-size: 1.3rem;
+  margin: 0;
+}
+.hello::selection {
+  background: var(--primary);
+  color: var(--light);
+}
+.fenil {
+  color: var(--light);
+  font-size: 5rem;
+  margin: 1rem 0;
+}
+.fenil::selection {
+  background: var(--primary);
+  color: var(--highlight);
+}
+.des {
+  margin: 0;
+  color: var(--secondary);
+  font-size: 3rem;
+}
+.des::selection {
+  background: var(--primary);
+  color: var(--light);
+}
+.about {
+  width: 60%;
+  font-size: 1.2rem;
+  color: var(--secondary);
+}
+.about::selection {
+  background: var(--primary);
+  color: var(--light);
+}
+.button {
+  background-color: var(--primary);
+  color: var(--highlight);
+  border: 1px solid var(--highlight);
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 2rem;
+}
+.button:hover {
+  background-color: var(--lightHighlight);
+}

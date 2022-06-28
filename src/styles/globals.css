@@ -1,0 +1,60 @@
+:root {
+  --primary: #0a192f;
+  --secondary: #8892b0;
+  --light: #ccd6f6;
+  --highlight: #5ae7c8;
+  --lightHighlight: #133040;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #0a192f;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--light);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.flex-start {
+  justify-content: flex-start;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+.flex-center {
+  justify-content: center;
+}
+.flex-space-between {
+  justify-content: space-between;
+}
+.flex-space-around {
+  justify-content: space-around;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
