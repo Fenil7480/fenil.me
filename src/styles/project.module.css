@@ -1,0 +1,20 @@
+.project {
+  display: grid;
+  grid-template-columns: 60% 35%;
+  grid-gap: 3rem;
+}
+.title {
+  color: var(--highlight);
+  font-size: 2.3rem;
+}
+.des {
+  color: var(--secondary);
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  font-weight: normal;
+}
+.img {
+  border-radius: 2%;
+  /* background: linear-gradient(to top, #3204fdba, #9907facc),
+    no-repeat top center; */
+}
