@@ -4,7 +4,7 @@ import styles from '../styles/intro.module.css'
 const Intro = () => {
 
     return (
-        <section className={styles.intro} >
+        <section id='about' className={styles.intro} >
             <h3 className={styles.hello} >Hello, My name is</h3>
             <h1 className={styles.fenil}>Fenil Patel</h1>
             <h3 className={styles.des}>I make awesome things for web!</h3>

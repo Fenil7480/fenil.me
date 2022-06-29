@@ -1,11 +1,12 @@
 .contact {
-  padding: 5rem 7rem 5rem 7rem;
+  padding: 5rem 7rem 1rem 7rem;
 }
 .title {
   color: var(--light);
   font-size: 2.5rem;
   margin: 0 0 2rem 0;
   text-align: center;
+  font-weight: 600;
 }
 .info {
   width: 80%;
@@ -28,4 +29,12 @@
 }
 .button:hover {
   background-color: var(--lightHighlight);
+}
+.end {
+  margin: 1rem 0 0 0;
+  font-weight: 400;
+  color: var(--secondary);
+}
+.svg {
+  margin-bottom: -0.3rem;
 }

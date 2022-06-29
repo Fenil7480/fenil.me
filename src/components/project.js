@@ -8,7 +8,7 @@ const Project = () => {
         <div className={`${styles.project} flex-row flex-start`}>
             <div>
                 <a href="https://www.onpageseocheck.com/" target="_blank" rel="noopener noreferrer">
-                    <Image className={styles.img} src={seoDesktop} alt="onpageseocheck.com Image" width={600} height={400} /></a>
+                    <Image className={styles.img} src={seoDesktop} alt="onpageseocheck.com Image" width={600} height={350} /></a>
             </div>
             <div>
                 <a href="https://www.onpageseocheck.com/" target="_blank" rel="noopener noreferrer"><h2 className={styles.title}>onpageseocheck.com</h2></a>

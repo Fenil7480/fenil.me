@@ -8,16 +8,16 @@ const Navbar = () => {
             <Logo />
             <ul className={`${styles.ul} flex-row flex-end`}>
                 <li className={styles.li}>
-                    <a href="#">About</a>
+                    <a href="/#about">About</a>
                 </li>
                 <li className={styles.li}>
-                    <a href="#">Skills</a>
+                    <a href="/#skills">Skills</a>
                 </li>
                 <li className={styles.li}>
-                    <a href="#">Projects</a>
+                    <a href="/#projects">Projects</a>
                 </li>
                 <li className={styles.li}>
-                    <a href="#">Contact</a>
+                    <a href="/#contact">Contact</a>
                 </li>
             </ul>
         </nav>
