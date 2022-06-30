@@ -20,3 +20,19 @@
   /* background: linear-gradient(to top, #3204fdba, #9907facc),
     no-repeat top center; */
 }
+@media screen and (max-width: 768px) {
+  .project {
+    grid-template-columns: 100%;
+  }
+  .title {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .project {
+    grid-template-columns: 100%;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+}

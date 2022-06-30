@@ -56,3 +56,34 @@
 .button:hover {
   background-color: var(--lightHighlight);
 }
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 4rem 1rem 4rem 1rem;
+  }
+  .about {
+    width: 90%;
+  }
+  .fenil {
+    font-size: 3.5rem;
+  }
+  .des {
+    font-size: 2.5rem;
+  }
+  .button {
+    padding: 1rem 1rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .intro {
+    padding: 3rem 0rem 3rem 0rem;
+  }
+  .about {
+    width: 100%;
+  }
+  .fenil {
+    font-size: 3rem;
+  }
+  .des {
+    font-size: 2rem;
+  }
+}

@@ -12,3 +12,15 @@
 .li a:hover {
   color: var(--highlight);
 }
+@media only screen and (max-width: 768px) {
+  .li {
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .li {
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+  }
+}

@@ -13,3 +13,28 @@
   grid-template-columns: auto auto;
   grid-gap: 1rem 6rem;
 }
+@media screen and (max-width: 768px) {
+  .skills {
+    padding: 4rem 1rem 4rem 1rem;
+  }
+  .skillsContainer {
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skills {
+    padding: 4rem 1rem 4rem 1rem;
+  }
+  .skillsContainer {
+    grid-template-columns: auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  .skills {
+    padding: 3rem 0rem 3rem 0rem;
+  }
+  .skillsContainer {
+    grid-template-columns: auto;
+  }
+}

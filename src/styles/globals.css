@@ -15,10 +15,6 @@ body {
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: #0a192f;
 }
-html {
-  scroll-behavior: smooth;
-  scrollbar-color: var(--highlight) var(--light);
-}
 
 ul {
   list-style: none;
