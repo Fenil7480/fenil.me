@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Logo from './logo'
 import styles from '../styles/navbar.module.css'
 
@@ -8,16 +9,16 @@ const Navbar = () => {
             <Logo />
             <ul className={`${styles.ul} flex-row flex-end`}>
                 <li className={styles.li}>
-                    <a href="/#about">About</a>
+                    <Link href="/#about">About</Link>
                 </li>
                 <li className={styles.li}>
-                    <a href="/#skills">Skills</a>
+                    <Link href="/#skills">Skills</Link>
                 </li>
                 <li className={styles.li}>
-                    <a href="/#projects">Projects</a>
+                    <Link href="/#projects">Projects</Link>
                 </li>
                 <li className={styles.li}>
-                    <a href="/#contact">Contact</a>
+                    <Link href="/#contact">Contact</Link>
                 </li>
             </ul>
         </nav>
