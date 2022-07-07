@@ -5,7 +5,7 @@ import styles from '../styles/project.module.css'
 
 const Project = () => {
     return (
-        <div className={'${styles.project} flex-row flex-start'}>
+        <div className={`${styles.project} flex-row flex-start`}>
             <div>
                 <a href="https://www.onpageseocheck.com/" target="_blank" rel='noreferrer'>
                     <Image className={styles.img} src={seoDesktop} alt="onpageseocheck.com Image" width={600} height={350} /></a>
