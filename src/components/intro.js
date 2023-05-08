@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../styles/intro.module.css';
 // import resume from 'FenilPatel_Dev.pdf'
 
