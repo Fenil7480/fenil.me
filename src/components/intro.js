@@ -1,5 +1,4 @@
 import styles from '../styles/intro.module.css';
-// import resume from 'FenilPatel_Dev.pdf'
 
 const Intro = () => {
   return (
