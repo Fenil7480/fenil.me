@@ -1,4 +1,5 @@
 import styles from '../styles/intro.module.css';
+import Link from 'next/link';
 
 const Intro = () => {
   return (
@@ -11,9 +12,9 @@ const Intro = () => {
         designing and development at Conestoga college. I like building single
         page applications using React & Next.js
       </h4>
-      <a href='Fenil_Patel_Resume.pdf' target='_blank'>
+      <Link href='Fenil_Patel_Resume.pdf' target='_blank'>
         <button className={styles.button}>Resume</button>
-      </a>
+      </Link>
     </section>
   );
 };
