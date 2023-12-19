@@ -1,4 +1,3 @@
-import React from 'react'
 import Skill from './skill'
 import styles from '../styles/skills.module.css'
 
