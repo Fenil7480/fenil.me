@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from '../styles/contact.module.css';
 import Socials from './socials';
 
@@ -11,9 +12,13 @@ const Contact = () => {
         consider dropping a mail or connecting me via social handles. I will get
         back to you soon.
       </p>
-      <a href='mailto:7fenilpatel@gmail.com' target='_blank' rel='noreferrer'>
+      <Link
+        href='mailto:7fenilpatel@gmail.com'
+        target='_blank'
+        rel='noreferrer'
+      >
         <button className={styles.button}> Say Hello</button>
-      </a>
+      </Link>
       <Socials />
       <h3 className={styles.end}>
         Built with{' '}
