@@ -1,12 +1,13 @@
 import Image from 'next/image';
 import seoDesktop from '../../public/seoDesktop.PNG';
 import styles from '../styles/project.module.css';
+import Link from 'next/link';
 
 const Project = () => {
   return (
     <div className={`${styles.project} flex-row flex-start`}>
       <div>
-        <a
+        <Link
           href='https://www.onpageseocheck.com/'
           target='_blank'
           rel='noreferrer'
@@ -18,7 +19,7 @@ const Project = () => {
             width={600}
             height={350}
           />
-        </a>
+        </Link>
       </div>
       <div>
         <a
